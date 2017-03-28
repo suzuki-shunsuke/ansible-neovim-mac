@@ -1,0 +1,9 @@
+---
+# tasks file for neovim-mac
+- name: Tap Homebrew repositories
+  homebrew_tap:
+    name: "neovim/neovim"
+- name: Install Homebrew packages
+  homebrew:
+    name: "neovim"
+    update_homebrew: yes

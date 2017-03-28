@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Suzuki Shunsuke
+  description: Install Neovim on Mac
+  license: MIT
+  min_ansible_version: 1.2
+  github_branch: master
+
+  platforms:
+  - name: MacOSX
+    versions:
+    - all
+
+  galaxy_tags:
+  - neovim
+
+dependencies: []
